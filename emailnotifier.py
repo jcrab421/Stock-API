@@ -2,8 +2,8 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from_addr='johnetree@gmail.com'
-to_addr=['johnetree@gmail.com']
+from_addr=''
+to_addr=['']
 msg=MIMEMultipart()
 msg['From']=from_addr
 msg['To']=" ,".join(to_addr)
